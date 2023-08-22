@@ -1,8 +1,15 @@
 import React from "react";
+import BlogPost from "./BlogPost/BlogPost";
+import SideBar from "./BlogPost/SideBar";
+
+
 const Home =()=>{
     return(
         <section  className="hero">
-            <h1>Welcome to Home</h1>
+            <BlogPost />
+            <SideBar />
+            
+            
         </section>
     )
 }
